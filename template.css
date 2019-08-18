@@ -1,0 +1,221 @@
+/* Jellyfin-seymour generated theme
+
+Jellyfin-seymour
+Copyright (C) 2019  Red_M ( http://bitbucket.com/Red_M )
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+
+.mdl-slider { color: ###accent###; }
+.mdl-slider::-webkit-slider-thumb { color: ###accent###; }
+.mdl-slider::-ms-thumb { background: ###accent###; }
+.mdl-slider::-webkit-slider-thumb { background: ###accent###; }
+.mdl-slider::-moz-range-thumb { background: ###accent###; }
+.mdl-slider-background-lower { color: ###accent###; background-color: ###accent###; }
+.mdl-slider::-moz-range-progress { color: ###accent###; }
+.skinHeader-withBackground { background-color: ###accent### !important; }
+.navMenuOption-selected { background: ###accent### !important; }
+a.navMenuOption-selected { background: ###accent### !important; }
+.button-submit { background: ###accent### !important; }
+.button-link { color: ###accent### !important; }
+.listItemIcon:not(.listItemIcon-transparent) { background-color: ###accent### !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: ###accent### !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline { border-color: ###accent### !important; }
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: ###accent###; }
+.iconOsdProgressInner { background: ###accent### !important; }
+.card { cursor: unset !important; }
+.cardOverlayContainer { cursor: pointer !important };
+.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(###accent_rgb###, 0.5) auto 1px !important; };
+
+
+div[data-role=controlgroup] a.ui-btn-active {
+    background: ###accent### !important;
+}
+
+
+.appfooter {
+    background: #0c0c0c !important;
+}
+
+.backgroundContainer,
+.dialog,
+html {
+    background-color: #171717 !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #272727 !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+    -webkit-border-radius: 2px;
+    background: center no-repeat ###scrollbar_accent### !important;
+}
+
+.repeatButton-active {
+    color: ###light_accent### !important;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: ###light_accent### !important;
+}
+
+.programCell-kids {
+    background: #e50303 !important
+}
+
+.defaultCardBackground2 {
+    background-color: #bb3333
+}
+
+.wizardStartForm,
+.ui-corner-all,
+.ui-shadow {
+  background-color: ###accent### !important;
+}
+.skinHeader-withBackground {
+    background-color: ###accent### !important;
+}
+.paper-icon-button-light:focus {
+    color: ###accent### !important;
+}
+.button-submit {
+    background: ###accent### !important;
+}
+
+.button-submit:focus {
+    background: ###focus_accent###
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: ###accent### !important;
+}
+
+.itemSelectionPanel {
+    border: 1px solid ###accent### !important;
+}
+
+.selectionCommandsPanel {
+    background: ###accent### !important;
+}
+
+.upNextDialog-countdownText {
+    color: ###accent### !important;
+}
+
+.alphaPickerButton-tv:focus {
+    background-color: ###accent### !important;
+}
+.progressring-spiner {
+    border-color: ###accent### !important;
+}
+
+.button-flat-accent,
+.button-link {
+    color: ###accent### !important;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: ###accent### !important;
+}
+.emby-select-withcolor:focus {
+    border-color: ###accent### !important
+}
+
+select.emby-select-withcolor:focus {
+    border-color: ###accent### !important
+}
+
+.emby-select-tv-withcolor:focus {
+    background-color: ###accent### !important;
+}
+
+.emby-checkbox:checked+span+span+.checkboxOutline {
+    border-color: ###accent### !important;
+}
+.emby-checkbox:checked+span+span+.checkboxOutline,
+.itemProgressBarForeground {
+    background-color: ###accent### !important;
+}
+.countIndicator,
+.playedIndicator {
+    background: ###accent### !important;
+}
+
+.fullSyncIndicator {
+    background: ###accent### !important;
+}
+
+.navMenuOption-selected {
+    background: ###accent### !important;
+}
+
+.emby-button-focusscale:focus {
+    background: ###accent### !important;
+}
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: ###accent### !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: ###accent### !important;
+}
+
+.guide-date-tab-button.emby-button-tv:focus {
+    background-color: ###accent### !important;
+}
+
+.ratingbutton-icon-withrating {
+    color: ###accent### !important;
+}
+
+.playstatebutton-icon-played {
+    color: ###accent### !important;
+}
+
+.card:focus .card-focuscontent {
+    border-color: ###accent### !important;
+}
+
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
+    background: ###accent### !important;
+}
+
+.mdl-switch__input:checked:focus + .mdl-switch__label + .mdl-switch__trackContainer .mdl-switch__focus-helper {
+    box-shadow: 0 0 0 1.39em rgba(###accent_rgb###, 0.26);
+    background-color: rgba(###accent_rgb###, 0.5) !important;
+}
+
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
+    background: rgba(###accent_rgb###, 0.5) !important;
+}
+
+.paper-icon-button-light:focus {
+    color: ###accent### !important;
+    background-color: rgba(###accent_rgb###, .2) !important;
+}
+
+input:focus input[type=checkbox]:focus {
+    color: ###accent### !important;
+    background-color: rgba(###accent_rgb###, .2) !important;
+}

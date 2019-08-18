@@ -1,0 +1,33 @@
+{
+    "selected_theme":"red",
+    "themes":{
+        "red":{
+            "accent":"#cc0004",
+            "accent_rgb":"204, 0, 4",
+            "light_accent":"#f44242",
+            "focus_accent":"#da0000",
+            "scrollbar_accent":"#880000"
+        },
+        "neon_green":{
+            "accent":"#34eb46",
+            "accent_rgb":"52, 235, 70",
+            "light_accent":"#34eb5f",
+            "focus_accent":"#6bff36",
+            "scrollbar_accent":"#36ff43"
+        },
+        "blue":{
+            "accent":"#2c79de",
+            "accent_rgb":"44, 121, 222",
+            "light_accent":"#4592f7",
+            "focus_accent":"#368dff",
+            "scrollbar_accent":"#2c79ff"
+        },
+        "pink":{
+            "accent":"#ff8c8c",
+            "accent_rgb":"255, 140, 140",
+            "light_accent":"#ff9c9c",
+            "focus_accent":"#eb8888",
+            "scrollbar_accent":"#e89797"
+        }
+    }
+}
