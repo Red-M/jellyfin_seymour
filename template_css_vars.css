@@ -1,0 +1,229 @@
+/* Jellyfin-seymour generated theme
+
+Jellyfin-seymour
+Copyright (C) 2019  Red_M ( http://bitbucket.com/Red_M )
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+
+:root {
+  --main-accent-color: ###accent###;
+  --main-accent-rgb-color: ###accent_rgb###;
+  --scrollbar-accent-color: ###scrollbar_accent###;
+  --light-accent-color: ###light_accent###;
+  --focus-accent-color: ###focus_accent###;
+}
+
+.mdl-slider { color: var(--main-accent-color); }
+.mdl-slider::-webkit-slider-thumb { color: var(--main-accent-color); }
+.mdl-slider::-ms-thumb { background: var(--main-accent-color); }
+.mdl-slider::-webkit-slider-thumb { background: var(--main-accent-color); }
+.mdl-slider::-moz-range-thumb { background: var(--main-accent-color); }
+.mdl-slider-background-lower { color: var(--main-accent-color); background-color: var(--main-accent-color); }
+.mdl-slider::-moz-range-progress { color: var(--main-accent-color); }
+.skinHeader-withBackground { background-color: var(--main-accent-color) !important; }
+.navMenuOption-selected { background: var(--main-accent-color) !important; }
+a.navMenuOption-selected { background: var(--main-accent-color) !important; }
+.button-submit { background: var(--main-accent-color) !important; }
+.button-link { color: var(--main-accent-color) !important; }
+.listItemIcon:not(.listItemIcon-transparent) { background-color: var(--main-accent-color) !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: var(--main-accent-color) !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline { border-color: var(--main-accent-color) !important; }
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: var(--main-accent-color); }
+.iconOsdProgressInner { background: var(--main-accent-color) !important; }
+.card { cursor: unset !important; }
+.cardOverlayContainer { cursor: pointer !important };
+.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(var(--main-accent-rgb-color), 0.5) auto 1px !important; };
+
+
+div[data-role=controlgroup] a.ui-btn-active {
+    background: var(--main-accent-color) !important;
+}
+
+
+.appfooter {
+    background: #0c0c0c !important;
+}
+
+.backgroundContainer,
+.dialog,
+html {
+    background-color: #171717 !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #272727 !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+    -webkit-border-radius: 2px;
+    background: center no-repeat var(--scrollbar-accent-color) !important;
+}
+
+.repeatButton-active {
+    color: var(--light-accent-color) !important;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: var(--light-accent-color) !important;
+}
+
+.programCell-kids {
+    background: #e50303 !important
+}
+
+.defaultCardBackground2 {
+    background-color: #bb3333
+}
+
+.wizardStartForm,
+.ui-corner-all,
+.ui-shadow {
+  background-color: var(--main-accent-color) !important;
+}
+.skinHeader-withBackground {
+    background-color: var(--main-accent-color) !important;
+}
+.paper-icon-button-light:focus {
+    color: var(--main-accent-color) !important;
+}
+.button-submit {
+    background: var(--main-accent-color) !important;
+}
+
+.button-submit:focus {
+    background: var(--focus-accent-color)
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: var(--main-accent-color) !important;
+}
+
+.itemSelectionPanel {
+    border: 1px solid var(--main-accent-color) !important;
+}
+
+.selectionCommandsPanel {
+    background: var(--main-accent-color) !important;
+}
+
+.upNextDialog-countdownText {
+    color: var(--main-accent-color) !important;
+}
+
+.alphaPickerButton-tv:focus {
+    background-color: var(--main-accent-color) !important;
+}
+.progressring-spiner {
+    border-color: var(--main-accent-color) !important;
+}
+
+.button-flat-accent,
+.button-link {
+    color: var(--main-accent-color) !important;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: var(--main-accent-color) !important;
+}
+.emby-select-withcolor:focus {
+    border-color: var(--main-accent-color) !important
+}
+
+select.emby-select-withcolor:focus {
+    border-color: var(--main-accent-color) !important
+}
+
+.emby-select-tv-withcolor:focus {
+    background-color: var(--main-accent-color) !important;
+}
+
+.emby-checkbox:checked+span+span+.checkboxOutline {
+    border-color: var(--main-accent-color) !important;
+}
+.emby-checkbox:checked+span+span+.checkboxOutline,
+.itemProgressBarForeground {
+    background-color: var(--main-accent-color) !important;
+}
+.countIndicator,
+.playedIndicator {
+    background: var(--main-accent-color) !important;
+}
+
+.fullSyncIndicator {
+    background: var(--main-accent-color) !important;
+}
+
+.navMenuOption-selected {
+    background: var(--main-accent-color) !important;
+}
+
+.emby-button-focusscale:focus {
+    background: var(--main-accent-color) !important;
+}
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: var(--main-accent-color) !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: var(--main-accent-color) !important;
+}
+
+.guide-date-tab-button.emby-button-tv:focus {
+    background-color: var(--main-accent-color) !important;
+}
+
+.ratingbutton-icon-withrating {
+    color: var(--main-accent-color) !important;
+}
+
+.playstatebutton-icon-played {
+    color: var(--main-accent-color) !important;
+}
+
+.card:focus .card-focuscontent {
+    border-color: var(--main-accent-color) !important;
+}
+
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
+    background: var(--main-accent-color) !important;
+}
+
+.mdl-switch__input:checked:focus + .mdl-switch__label + .mdl-switch__trackContainer .mdl-switch__focus-helper {
+    box-shadow: 0 0 0 1.39em rgba(var(--main-accent-rgb-color), 0.26);
+    background-color: rgba(var(--main-accent-rgb-color), 0.5) !important;
+}
+
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
+    background: rgba(var(--main-accent-rgb-color), 0.5) !important;
+}
+
+.paper-icon-button-light:focus {
+    color: var(--main-accent-color) !important;
+    background-color: rgba(var(--main-accent-rgb-color), .2) !important;
+}
+
+input:focus input[type=checkbox]:focus {
+    color: var(--main-accent-color) !important;
+    background-color: rgba(var(--main-accent-rgb-color), .2) !important;
+}
