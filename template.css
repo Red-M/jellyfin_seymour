@@ -219,3 +219,10 @@ input:focus input[type=checkbox]:focus {
     color: ###accent### !important;
     background-color: rgba(###accent_rgb###, .2) !important;
 }
+
+:root {
+    --swiper-theme-color: ###accent### !important;
+}
+.buttonActive {
+    color: ###accent### !important;
+}
