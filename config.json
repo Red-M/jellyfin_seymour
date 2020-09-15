@@ -28,6 +28,13 @@
             "light_accent":"#ff9c9c",
             "focus_accent":"#eb8888",
             "scrollbar_accent":"#e89797"
+        },
+        "purple":{
+            "accent":"#90298c",
+            "accent_rgb":"144, 41, 140",
+            "light_accent":"#a930a4",
+            "focus_accent":"#81247e",
+            "scrollbar_accent":"#b533b0"
         }
     }
 }
