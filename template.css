@@ -210,7 +210,8 @@ select.emby-select-withcolor:focus {
     background: rgba(###accent_rgb###, 0.5) !important;
 }
 
-.paper-icon-button-light:focus {
+.paper-icon-button-light:focus,
+.paper-icon-button-light:hover:not(:disabled) {
     color: ###accent### !important;
     background-color: rgba(###accent_rgb###, .2) !important;
 }
@@ -224,5 +225,10 @@ input:focus input[type=checkbox]:focus {
     --swiper-theme-color: ###accent### !important;
 }
 .buttonActive {
+    color: ###accent### !important;
+}
+
+.emby-tab-button.show-focus:focus,
+.emby-tab-button:hover {
     color: ###accent### !important;
 }
