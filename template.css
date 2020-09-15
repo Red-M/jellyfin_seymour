@@ -26,7 +26,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 .mdl-slider::-moz-range-thumb { background: ###accent###; }
 .mdl-slider-background-lower { color: ###accent###; background-color: ###accent###; }
 .mdl-slider::-moz-range-progress { color: ###accent###; }
-.skinHeader-withBackground { background-color: ###accent### !important; }
 .navMenuOption-selected { background: ###accent### !important; }
 a.navMenuOption-selected { background: ###accent### !important; }
 .button-submit { background: ###accent### !important; }
@@ -87,9 +86,6 @@ html {
 .ui-corner-all,
 .ui-shadow {
   background-color: ###accent### !important;
-}
-.skinHeader-withBackground {
-    background-color: ###accent### !important;
 }
 .paper-icon-button-light:focus {
     color: ###accent### !important;
@@ -231,4 +227,11 @@ input:focus input[type=checkbox]:focus {
 .emby-tab-button.show-focus:focus,
 .emby-tab-button:hover {
     color: ###accent### !important;
+}
+
+/* https://jellyfin.org/docs/general/clients/css-customization.html#transparent-top-menu */
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred,
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+    background: none; 
+    background-color: rgba(0, 0, 0, 0);
 }
