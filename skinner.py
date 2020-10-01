@@ -26,6 +26,9 @@ class skinner(object):
         f = open('template.css','r')
         self.template = f.read()
         f.close()
+        f = open('transparent_header.css','r')
+        self.transparent_header = f.read()
+        f.close()
         self.skin()
 
     def debug_print(self, text):
@@ -37,8 +40,8 @@ class skinner(object):
         f.close()
         return(conf)
 
-    def replace_into_template(self, theme_config):
-        out = str(self.template)
+    def replace_into_template(self, template, theme_config):
+        out = str(template)
         for key in theme_config:
             out = out.replace('###'+key+'###',theme_config[key])
         return(out)
@@ -48,7 +51,10 @@ class skinner(object):
         if selected_theme in self.config['themes']:
             theme_config = self.config['themes'][selected_theme]
             f = open('output.css','w')
-            f.write(self.replace_into_template(theme_config))
+            output = self.replace_into_template(self.template, theme_config)
+            if self.config['transparent_header']:
+                output = output+self.replace_into_template(self.transparent_header, theme_config)
+            f.write(output)
             self.debug_print('Done!')
         else:
             self.debug_print('Bad theme selected.')

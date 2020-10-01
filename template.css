@@ -127,6 +127,7 @@ html {
     border-color: ###accent### !important;
 }
 
+.button-flat:hover,
 .button-flat-accent,
 .button-link {
     color: ###accent### !important;
@@ -210,9 +211,14 @@ select.emby-select-withcolor:focus {
     background: rgba(###accent_rgb###, 0.5) !important;
 }
 
-.paper-icon-button-light:focus {
+.paper-icon-button-light:focus,
+.paper-icon-button-light:hover:not(:disabled) {
     color: ###accent### !important;
     background-color: rgba(###accent_rgb###, .2) !important;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
+    color: ###accent### !important;
+    background-color: rgba(255, 255, 255, .7) !important;
 }
 
 input:focus input[type=checkbox]:focus {

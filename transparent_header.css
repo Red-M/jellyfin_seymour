@@ -1,0 +1,17 @@
+/* Top menu transparency https://jellyfin.org/docs/general/clients/css-customization.html#transparent-top-menu */
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+    background: none !important; 
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+    background: none !important; 
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.emby-tab-button.show-focus:focus,
+.emby-tab-button:hover {
+    color: ###accent### !important;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
+    color: ###accent### !important;
+    background-color: rgba(###accent_rgb###, .2) !important;
+}
